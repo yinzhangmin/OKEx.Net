@@ -112,4 +112,7 @@ public class OkexPosition
 
     [JsonProperty("vegaPA")]
     public decimal? VegaPA { get; set; }
+
+    [JsonProperty("bePx")]
+    public decimal? BePx { get; set; }
 }
